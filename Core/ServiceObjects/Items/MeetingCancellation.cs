@@ -50,7 +50,7 @@ namespace Microsoft.Exchange.WebServices.Data
         /// Initializes a new instance of the <see cref="MeetingCancellation"/> class.
         /// </summary>
         /// <param name="service">EWS service to which this object belongs.</param>
-        internal MeetingCancellation(ExchangeService service)
+        public MeetingCancellation(ExchangeService service)
             : base(service)
         {
         }
